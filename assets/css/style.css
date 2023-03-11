@@ -39,6 +39,10 @@ nav {
   stroke: rgba(255, 255, 255, 0.5);
 }
 
+.navbar .navbar-toggler:focus {
+  color: #ffffff;
+}
+
 .nav-link:hover {
   color: var(--white) !important;
 }
