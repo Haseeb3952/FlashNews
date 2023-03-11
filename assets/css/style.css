@@ -102,8 +102,27 @@ footer {
 /* Post Page CSS */
 
 .post_headings h1 {
-  font-weight: 900 !important;
-  font-size: 60px !important;
+  font-weight: 900;
+  font-size: 60px;
+}
+
+.post_picture img {
+  height: 370px;
+  width: 100%;
+}
+
+.important {
+  background-color: #252830 !important;
+}
+
+.author img {
+  height: 230px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.author-detail {
+  background-color: #252830;
 }
 
 /* // Small devices (landscape phones, less than 768px) */
@@ -118,5 +137,8 @@ footer {
   .post-1 {
     margin-top: -10px !important;
     margin-left: 20px;
+  }
+  .post_headings h1 {
+    font-size: 40px;
   }
 }
