@@ -71,6 +71,14 @@ nav {
   max-height: 500px;
 }
 
+.post-content {
+  height: 100%;
+}
+
+.post-content img {
+  height: 100%;
+}
+
 .post {
   background-color: #282831;
   opacity: 0.8;
