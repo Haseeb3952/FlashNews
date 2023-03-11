@@ -87,6 +87,17 @@ nav {
   border: 0.15px solid #afb6cd;
 }
 
+.subscribe {
+  letter-spacing: 2px;
+}
+
+footer {
+  background-color: #252830;
+}
+
+.fb a i:hover {
+  color: var(--white);
+}
 /* // Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
   .sun_moon {
