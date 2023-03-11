@@ -49,6 +49,10 @@ nav {
   background-color: #282831;
 }
 
+.hero-post {
+  max-height: 500px;
+}
+
 .post {
   background-color: #282831;
   opacity: 0.8;
@@ -103,7 +107,7 @@ footer {
 
 .post_headings h1 {
   font-weight: 900;
-  font-size: 60px;
+  font-size: 40px;
 }
 
 .post_picture img {
