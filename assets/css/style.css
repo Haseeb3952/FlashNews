@@ -45,6 +45,14 @@ nav {
   color: var(--white);
 }
 
+.nav-cta {
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: 3px solid white;
+  padding: 6px 8px;
+}
+
 .beaking {
   background-color: #282831;
 }
@@ -111,7 +119,6 @@ footer {
 }
 
 .post_picture img {
-  height: 370px;
   width: 100%;
 }
 
