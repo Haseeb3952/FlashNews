@@ -87,30 +87,16 @@ nav {
   color: var(--white);
 }
 
-.trending_news {
-  background-color: #282831;
-}
-
-.bg_dark {
-  background-color: #282831;
-}
-
-.post_title:hover h6 {
-  color: var(--gray-light) !important;
-}
-
-.post-1 {
-  margin-top: -10px !important;
-  margin-left: 20px !important;
-}
-
-.line {
-  height: 0.5px;
-  border: 0.15px solid #afb6cd;
-}
-
 .subscribe {
   letter-spacing: 2px;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: none;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25);
 }
 
 footer {
