@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Poppins", sans-serif;
+  background-color: #131417;
+}
+
+:root {
+  --gray-light: #afb6cd;
+  --white: #fff;
+  --bg-light-dark: #282831;
+}
+
+a {
+  text-decoration: none;
+}
+
+.light-gray {
+  color: var(--gray-light);
+}
+
+.small_fs {
+  font-size: 13px;
+}
+
+nav {
+  background-color: #131417;
+}
+
+.nav-link {
+  color: #afb6cd !important;
+}
+
+.nav-link:hover {
+  color: var(--white) !important;
+}
+
+.sun_moon a span {
+  color: var(--gray-light);
+}
+
+.sun_moon a span:hover {
+  color: var(--white);
+}
+
+.beaking {
+  background-color: #282831;
+}
+
+.post {
+  background-color: #282831;
+  opacity: 0.8;
+  width: 100%;
+  transition: 0.5s;
+}
+
+.post:hover {
+  background-color: #131417;
+  opacity: 1;
+}
+
+.post:hover p {
+  color: var(--white);
+}
+
+.trending_news {
+  background-color: #282831;
+}
+
+.bg_dark {
+  background-color: #282831;
+}
+
+.post_title:hover h6 {
+  color: var(--gray-light) !important;
+}
+
+.post-1 {
+  margin-top: -10px !important;
+  margin-left: 20px !important;
+}
+
+.line {
+  height: 0.5px;
+  border: 0.15px solid #afb6cd;
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .sun_moon {
+    display: none;
+  }
+  .post_pic img {
+    height: 150px;
+    width: 100%;
+  }
+  .post-1 {
+    margin-top: -10px !important;
+    margin-left: 20px;
+  }
+}
