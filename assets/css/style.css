@@ -17,6 +17,10 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: white;
+}
+
 .light-gray {
   color: var(--gray-light);
 }
